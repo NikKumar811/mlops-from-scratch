@@ -6,6 +6,7 @@ import joblib
 
 print("Loading dataset...")
 
+#load dataset
 iris = load_iris()
 
 X = iris.data
