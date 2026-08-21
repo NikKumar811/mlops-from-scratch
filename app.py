@@ -43,3 +43,4 @@ def predict(flower: Flower):
     # Return the prediction as JSON
     return {
         "prediction": int(prediction[0])
+    }
